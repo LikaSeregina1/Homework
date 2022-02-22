@@ -1,0 +1,30 @@
+4.Создать внешний репозиторий new ---> name,public,add a README file
+5.Клонировать репозиторий code--->скопировать--->в гитбаше ввести git clone (ссылка)
+6.Открыть папку cd TXT
+7.Создать файл vim new.txt
+8.Добавить файл под гит git add .
+9.Закоммитить файл git commit -m "new.txt"
+10.Отправить на внешний репозиторий git push
+11.Отредактировать содержание файла (в формате txt) vim new.txt
+12.Отправить изменения на внешний репозиторий git commit -am "change file new.txt"
+           git push
+13. Создать файл vim preferences.txt
+ 
+14. Добавить изменения в формате txt 
+         15 Создать файл  vim sklls.txt 
+16 Отправить сразу 2 файла на внешний репозиторий
+       git add .
+       git commit -m "add 2 files"
+       git push
+17 На веб интерфейсе создать файл bug_report.txt
+       Add file
+       Create new file
+       Name: bug_report.txt
+18 Сделать Commit changes ----->Commit New File
+19 На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате TXT
+       Choose bug_report.txt
+       Edit this file
+20 Сделать Commit changes (сохранить) изменения на веб интерфейсе
+       Commit changes
+21 Синхронизировать внешний и локальный репозиторий TXT
+       git pull
